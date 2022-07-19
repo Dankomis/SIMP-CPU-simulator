@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>C:\Users\DanK\Desktop\test1.txt C:\Users\DanK\Desktop\test2.txt C:\Users\DanK\Desktop\test3.txt C:\Users\DanK\Desktop\memout1.txt C:\Users\DanK\Desktop\regout1.txt C:\Users\DanK\Desktop\trace1.txt C:\Users\DanK\Desktop\hwregtrace1.txt C:\Users\DanK\Desktop\cycles1.txt C:\Users\DanK\Desktop\leds1.txt C:\Users\DanK\Desktop\display7seg1.txt C:\Users\DanK\Desktop\diskout1.txt C:\Users\DanK\Desktop\monitor1.txt C:\Users\DanK\Desktop\monitoryuv1.yuv</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

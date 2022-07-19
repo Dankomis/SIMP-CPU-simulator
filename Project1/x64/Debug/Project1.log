@@ -1,0 +1,13 @@
+﻿  sim_test1.c
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(206,7): warning C4013: 'exit' undefined; assuming extern returning int
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(251,112): warning C4029: declared formal parameter list different from definition
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(293,6): warning C4101: 'i_type': unreferenced local variable
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(519,20): warning C4018: '>': signed/unsigned mismatch
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(741,27): warning C4047: 'function': 'int32_t *' differs in levels of indirection from 'int32_t *[4096]'
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(741,24): warning C4024: 'read_memin': different types for formal and actual parameter 1
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(751,14): warning C4047: 'function': 'int32_t *' differs in levels of indirection from 'int32_t *[4096]'
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(751,11): warning C4024: 'exe_inst': different types for formal and actual parameter 1
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(754,22): warning C4047: 'function': 'int32_t *' differs in levels of indirection from 'int32_t *[4096]'
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(754,18): warning C4024: 'memout': different types for formal and actual parameter 2
+C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\sim_test1.c(739,8): warning C4101: 'hwregtrace': unreferenced local variable
+  Project1.vcxproj -> C:\Users\DanK\Desktop\מבנה המחשב - פרויקט\ISA - project\sim - test\Project1\x64\Debug\Project1.exe
