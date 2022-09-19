@@ -49,7 +49,7 @@ The timer – The CPU handles 32 bit timer which connected to irq0 interruption 
 Leds – the CPU is connected to 32 leds, and are triggered by the program instructions.
 
 
-Monitor – the CPU has 256*256 pixel resolution monochromatic monitor, each pixel luminance is represented by 8 bits (0 for black and 256 for white). The monitor holds the data by a frame buffer, the buffer has 256 lines of 256 bytes. There are registers for holding the data, the address for the frame buffer and monitorcmd which indicates if there will be writing or reading operation.
+Monitor – the CPU has 256*256 pixel resolution monochromatic monitor, each pixel luminance is represented by 8 bits (0 for black and 255 for white). The monitor holds the data by a frame buffer, the buffer has 256 lines of 256 bytes. There are registers for holding the data, the address for the frame buffer and monitorcmd which indicates if there will be writing or reading operation.
 
 
 Hard disk – the CPU is connected to 128 sectors with 128 lines of 20 bit data hard disk. The disk is connected to irq1 and the data first initialized in the diskin.txt file, at the end of the program all the data will be saved in diskout.txt . The disk handles writing and reading and each operations will be at the sector level, it will use diskbuffer to store the data and disksector for the index of the chosen sector.
