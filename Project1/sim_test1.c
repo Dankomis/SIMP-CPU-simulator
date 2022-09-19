@@ -518,8 +518,6 @@ void irq2(IO_HW* hardware) {
 	hardware->IO_reg_arr[5] = 0;
 	if (hardware->clk > hardware->irq2_val[hardware->curr_irq2]) {
 		hardware->IO_reg_arr[5] = 1;
-		
-		//printf("irq2 :%u in cycle: %u, irq2status is: %d\n", hardware->irq2_val[hardware->curr_irq2], hardware->clk, hardware->IO_reg_arr[5]);
 		hardware->curr_irq2++;
 	}
 	
