@@ -528,7 +528,7 @@ void irq2(IO_HW* hardware) {
 
 ///IO Reg functions///
 
-//deals with timing (*not finished)
+//deals with timing 
 void clk(IO_HW* hardware, command* com) {
 	int clock = hardware->clk;
 	clock = clock + (1 + com->Itype + com->LS);
